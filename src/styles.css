@@ -1,0 +1,59 @@
+body {
+  background-color: salmon;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+input[type="text"] {
+  font-size: 1.5rem;
+  display: inline-block;
+  width: 300px;
+  margin: auto;
+}
+input[type="checkbox"] {
+  font-size: 2rem;
+  font-family: inherit;
+}
+button {
+  margin-top: 1rem;
+  font-family: inherit;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+
+  cursor: pointer;
+}
+button:hover {
+  background-color: #ccc;
+  transform: translateY(-1px);
+  transition: all 0.8s;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+button:active {
+  transform: translateY(-3px);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+button:focus {
+  outline: none;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+li {
+  background-color: white;
+  width: 300px;
+  margin: auto;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
